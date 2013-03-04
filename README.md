@@ -1,7 +1,7 @@
 ﻿#EventBrite.WinStore#
 
 ##Description##
-A wee lil' dynamic, C#-based web client for the Eventbrite API.
+A wee lil' dynamic, C#-based web client for the Eventbrite API. Named "WinStore" because it was built to the limitations of the Windows App Store API, but it can be used by any .Net 4.0+ application.
 
 Inspired by the [eventbrite-client.rb project](https://github.com/ryanjarvinen/eventbrite-client.rb).
 
