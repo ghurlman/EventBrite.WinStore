@@ -70,7 +70,7 @@ namespace EventBrite.WinStore
 						binder.Name, 
 						query
 					);
-					var response = webClient.GetAsync(requestUrl);
+					var response = webClient.GetAsync(Uri.EscapeUriString(requestUrl));
 
 					result = response.Result.Content.ReadAsStringAsync().Result;
 					return true;
